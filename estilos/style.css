@@ -38,11 +38,13 @@ main{
     transform: translate(-50%, -50%);
     overflow: hidden;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.473);
+    transition: width 0.3s, height 0.3s;
+    transition-timing-function: ease;
 }
 
 #login > #imagem {
     display: block;
-    background: #5f2c82 url("imagens/pexels-daniele-ursino-2150650320-31252768.jpg") no-repeat;
+    background: #5f2c82 url("../imagens/pexels-daniele-ursino-2150650320-31252768.jpg") no-repeat;
     background-size: cover;
     height: 200px;
 
